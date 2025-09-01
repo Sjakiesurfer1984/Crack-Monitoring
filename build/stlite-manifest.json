@@ -1,0 +1,8 @@
+{
+  "nodeJsWorker": true,
+  "nodefsMountpoints": {
+    "/mnt": "."
+  },
+  "entrypoint": "app.py",
+  "embed": false
+}

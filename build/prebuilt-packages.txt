@@ -1,0 +1,15 @@
+packaging
+micropip
+pyodide-http
+MarkupSafe
+pyparsing
+rpds-py
+python-dateutil
+fsspec
+setuptools
+Pillow
+apsw
+cramjam
+numpy
+pandas
+fastparquet

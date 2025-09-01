@@ -1,0 +1,17 @@
+# Python cache files
+__pycache__/
+
+# Dependency directories
+.venv/
+node_modules/
+
+# Build artifacts
+dist/
+
+# System files
+.DS_Store
+.streamlit/
+
+# Backup database files
+*.sqlite3.
+backups/
