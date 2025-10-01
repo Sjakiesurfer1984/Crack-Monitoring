@@ -7,8 +7,8 @@ from typing import Optional, List
 
 # Constants
 # Place the SQLite file right next to this module
-DB_PATH = os.path.join(os.path.dirname(__file__), "sensor_data.db")
-
+# DB_PATH = os.path.join(os.path.dirname(__file__), "sensor_data.db")
+DB_PATH = r"C:\Users\TimVos\AIE\Projects Aus - General\2024\24-0397 PP Spodumene Shed Concrete Wall Crack Monitoring\5 Project Documents\3. Data\sensor_data.db"
 # Logging setup
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

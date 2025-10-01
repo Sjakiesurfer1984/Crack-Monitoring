@@ -136,6 +136,13 @@ class DataLoader:
                 # print("\n[5] After setting 'Date/time' index:")
                 # print(df.head(5))
 
+                # 7) Renaming 'Date/time' to datetime
+                df = df.rename(columns = {"Date/time" : "datetime"})
+                print("\n[5] After renaming 'Date/time' to datetime:")
+                print(df.head(5))
+                # 8) Convert the column to actual datetime objects ✅ (<<< ADD THIS LINE HERE)
+                df['datetime'] = pd.to_datetime(df['datetime'], dayfirst=True)
+                
                 logger.info(f"✅ Finished cleaning. Final shape: {df.shape}")
                 return df
  
